@@ -21,7 +21,7 @@ const HeroSection = () => {
               Revolutionizing Data-Driven <br /> Healthcare Worldwide
             </h1>
             <p className="text-xl mt-[24px] leading-[140%]">
-              The world's largest health information management system —
+              The world&apos;s largest health information management system —
               <br />
               developed through global collaboration led by University of Oslo
             </p>
