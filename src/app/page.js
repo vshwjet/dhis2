@@ -3,10 +3,15 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main>
-      <HeroSection />
-      <Features />
-    </main>
+    <div>
+      <main className="whole-page">
+        <HeroSection />
+        <Features />
+      </main>
+      <div className="note font-[Satoshi] text-3xl font-medium mx-auto mt-[50vh] text-center">
+        Please view on Desktop, mobile version coming soon.
+      </div>
+    </div>
   );
 }
 

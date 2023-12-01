@@ -35,3 +35,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.note {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .whole-page {
+    display: none;
+  }
+  .note {
+    display: block;
+  }
+}
